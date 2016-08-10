@@ -10,6 +10,12 @@ ruby alchemyapi.rb YOUR_KEY_HERE
 ruby example.rb
 ```
 
+```ruby
+demo_text = "Usamimi graduate student at the Univ. of Tokyo / Interested in Human Augmentation, Computer Vision, Developer Productivity, Application architecture design "
+
+alchemyapi = AlchemyAPI.new()
+```
+
 #各機能の使用方法
 > 
 ####DemoText  
@@ -22,10 +28,6 @@ ruby example.rb
 ###Method
 
 ```ruby
-demo_text = "Usamimi graduate student at the Univ. of Tokyo / Interested in Human Augmentation, Computer Vision, Developer Productivity, Application architecture design "
-
-alchemyapi = AlchemyAPI.new()
-
 response = alchemyapi.entities('text', demo_text, { 'sentiment'=>1 })
 ```
 
