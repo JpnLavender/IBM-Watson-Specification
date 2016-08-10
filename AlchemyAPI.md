@@ -17,6 +17,8 @@ alchemyapi = AlchemyAPI.new()
 ```
 
 #各機能の使用方法
+
+TestText
 > 
 ####DemoText  
 > Usamimi graduate student at the Univ. of Tokyo / Interested in Human Augmentation, Computer Vision, Developer Productivity, Application architecture design
@@ -28,7 +30,7 @@ alchemyapi = AlchemyAPI.new()
 ###Method
 
 ```ruby
-response = alchemyapi.entities('text', demo_text, { 'sentiment'=>1 })
+alchemyapi.entities('text', demo_text, { 'sentiment'=>1 })
 ```
 
 ###Response
@@ -78,7 +80,7 @@ response = alchemyapi.entities('text', demo_text, { 'sentiment'=>1 })
 ###Method
 
 ```ruby
-response = alchemyapi.keywords('text', demo_text, { 'sentiment'=>1 })
+alchemyapi.keywords('text', demo_text, { 'sentiment'=>1 })
 ```
 
 ###Response
@@ -163,7 +165,7 @@ response = alchemyapi.keywords('text', demo_text, { 'sentiment'=>1 })
 
 ###Method
 ```ruby
-response = alchemyapi.concepts('text', demo_text)
+alchemyapi.concepts('text', demo_text)
 ```
 
 ###Response
@@ -204,7 +206,7 @@ response = alchemyapi.concepts('text', demo_text)
 ###Method
 
 ```ruby
-response = alchemyapi.sentiment('html', demo_html)
+alchemyapi.sentiment('html', demo_html)
 ```
 
 ###Response
@@ -228,7 +230,7 @@ response = alchemyapi.sentiment('html', demo_html)
 ###Method
 
 ```ruby
-response = alchemyapi.sentiment_targeted('text', demo_text, 'Tokyo')
+alchemyapi.sentiment_targeted('text', demo_text, 'Tokyo')
 ```
 ###Response
 
@@ -249,8 +251,7 @@ response = alchemyapi.sentiment_targeted('text', demo_text, 'Tokyo')
 ###Method
 
 ```ruby
-demo_url= 'http://www.npr.org/2013/11/26/247336038/dont-stuff-the-turkey-and-other-tips-from-americas-test-kitchen'
-response = alchemyapi.text('url', demo_url)
+alchemyapi.text('url', demo_url)
 ```
 ###Response
 
@@ -269,7 +270,7 @@ response = alchemyapi.text('url', demo_url)
 ###Method
 
 ```ruby
-response = alchemyapi.author('url', demo_url)
+alchemyapi.author('url', demo_url)
 ```
 ###Response
 
@@ -288,7 +289,7 @@ response = alchemyapi.author('url', demo_url)
 ###Method
 
 ```ruby
-response = alchemyapi.language('text', demo_text)
+alchemyapi.language('text', demo_text)
 ```
 ###Response
 
@@ -815,7 +816,7 @@ alchemyapi.combined('url', demo_url, { 'extract'=>'page-image,keyword,entity' })
 ###Method
 
 ```ruby
-alchemyapi.image_tag('url', demo_url, { 'extractMode'=>'trust-metadata' }) })
+alchemyapi.image_tag('url', demo_url, { 'extractMode'=>'trust-metadata' }) 
 ```
 ###Response
 
