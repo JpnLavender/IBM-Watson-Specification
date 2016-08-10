@@ -1,4 +1,4 @@
-#AlchemyAPI仕様記録
+#IBM-Watson: AlchemyAPI仕様記録
 
 ##環境構築
 
