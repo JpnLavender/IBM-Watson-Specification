@@ -11,9 +11,11 @@ ruby example.rb
 ```
 
 #各機能の使用方法
-
+> 
 ####DemoText  
 > Usamimi graduate student at the Univ. of Tokyo / Interested in Human Augmentation, Computer Vision, Developer Productivity, Application architecture design
+####DemoURL
+> http://www.npr.org/2013/11/26/247336038/dont-stuff-the-turkey-and-other-tips-from-americas-test-kitchen
 
 ##表現抽出
 
